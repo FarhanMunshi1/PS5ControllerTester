@@ -9,8 +9,8 @@ controller = Controller.CreateController()
 leftJoyStickCenterPos = controller.leftJoyStickCenterPos
 rightJoyStickCenterPos = controller.rightJoyStickCenterPos
 
-port = '/dev/ttyUSB0'
-baud_rate = 115200    
+port = '/dev/ttyUSB0'                  # Replace with your port name
+baud_rate = 115200                     # Replace with the baud rate you chose in Arduino
 
 serialConn = serial.Serial(port, baud_rate, timeout=1)
 
