@@ -1,7 +1,7 @@
 # PS5ControllerTester
 Connect ps5 controller to an esp32, and test it using a python application
 
-1) run the arduino file. You need the libraries:
+1) Put in your ps5 controller ID thing & run the arduino file. You need the libraries:
    https://github.com/rodneybakiskan/ps5-esp32
    ArduinoJson
 2) Connect your ps5 controller to esp by holding the share and power button
